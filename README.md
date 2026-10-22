@@ -7,6 +7,12 @@
 - Registration Number: 252U1R9007
 - Section: GEN AI - 2A
 - GitHub Username: srividya1393-dev
+## Live Demo
+
+**Live Website:** https://amara-node-express-lab1.vercel.app/
+
+**GitHub Repository:** [Amara_Node_Express_Lab1](https://github.com/srividya1393-dev/Amara_Node_Express_Lab1)
+
 
 ## Objective
 To create and run a web server using Node.js and Express.
