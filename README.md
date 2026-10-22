@@ -1,4 +1,5 @@
 
+
 # Lab 1: Node.js and Express Server
 
 ## Student Details
@@ -50,3 +51,6 @@ Add screenshots of the Home, About, Time, and 404 pages here.
 
 ### 404 Page
 ![404 Page](Screenshots/not-found.png)
+=======
+# Amara_Node_Express_Lab1
+Node.js and Express Lab 1 
