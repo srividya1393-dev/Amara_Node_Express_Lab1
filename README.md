@@ -3,7 +3,8 @@ Name: Amara Sri Vidya
 Registration Number: 252U1R9007
 Section: Gen-AI 2A
 
-Live Link: amara-node-express-lab1.vercel.app
+ Live Link:
+https://amara-node-express-lab1.vercel.app/
 GitHub LInk: https://github.com/srividya1393-dev/Amara_Node_Express_Lab1
 
 
