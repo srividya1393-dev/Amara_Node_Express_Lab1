@@ -11,7 +11,7 @@
 
 **Live Website:** https://amara-node-express-lab1.vercel.app/
 
-**GitHub Repository:** [Amara_Node_Express_Lab1](https://github.com/srividya1393-dev/Amara_Node_Express_Lab1)
+**GitHub Repository:** (https://github.com/srividya1393-dev/Amara_Node_Express_Lab1)
 
 
 ## Objective
