@@ -1,81 +1,70 @@
-# Lab 1: Node.js and Express Server
+Lab 1: Node.js and Express Server
+ Name: Amara Sri Vidya
+ Registration Number: 252U1R9007
+ Section: GEN AI - 2A
+ Course: Backend Development Fundamentals
+ Lab Number: 01
+Deployment URL: [amara-node-express-lab1.vercel.app](https://amara-node-express-lab1.vercel.app/)  
+GitHub Link: https://github.com/srividya1393-dev/Amara_Node_Express_Lab1
+To set up a Node.js project, create a basic HTTP server using the built-in http module, and build an Express server with multiple routes and appropriate HTTP status codes.
+- Node.js
+- Express.js
+- JavaScript
+- npm
+- Visual Studio Code
+lab-01/
+├── screenshots/
+│   ├── home.png
+│   ├── about.png
+│   ├── time.png
+│   └── not-found.png
+├── server-http.js
+├── server.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
 
-## Student Details
-
-- **Name:** Amara Sri Vidya
-- **Registration Number:** 252U1R9007
-- **Section:** Gen-AI 2A
-
-## Live Link
-
-[https://amara-node-express-lab1.vercel.app/](https://amara-node-express-lab1.vercel.app/)
-
-## GitHub Repository
-
-[Amara_Node_Express_Lab1](https://github.com/srividya1393-dev/Amara_Node_Express_Lab1)
-
-## Project Description
-
-A simple web server built using Node.js and Express.js. It provides welcome, about, and current-time routes, along with a 404 handler for unknown routes.
-
-## Technologies Used
-
-1. Node.js
-2. Express.js
-3. JavaScript
-4. Git and GitHub
-
-## How to Run the Project
-
-### Step 1: Install Dependencies
-
-```bash
-npm install
 ```
-
-### Step 2: Start the Server
-
+- Node.js and npm installed
+- Visual Studio Code or another code editor
+1. Clone the repository or download the project.
+2. Open the lab-01 folder in the terminal.
+3. Install the dependencies:
+   ```bash
+   npm install
+   
+   ```
+4. Start the Express server:
+   ```bash
+   node server.js
+   
+   ```
+5. Open the following URL in your browser:
+   http://localhost:3000
+To run the server implemented using Node.js's built-in HTTP module:
 ```bash
-node server.js
+node server-http.js
+
 ```
-
-### Step 3: Open in Browser
-
-Open the following URL in your browser:
-
-[http://localhost:3000](http://localhost:3000)
-
-## Endpoints
-
-| Method | Path | Description | Status Code |
-|---|---|---|---|
-| GET | `/` | Welcome message | 200 |
-| GET | `/about` | Name and section in JSON | 200 |
-| GET | `/time` | Current date and time | 200 |
-| GET | `/unknown` | Not found response | 404 |
-
-## Screenshots
-
-### 1. Home Route
-
-![Home Route](Screenshots/home.png)
-
-### 2. About Route
-
-![About Route](Screenshots/about.png)
-
-### 3. Time Route
-
-![Time Route](Screenshots/time.png)
-
-### 4. 404 Response
-
-![404 Response](Screenshots/not-found.png)
-
-## Implementation
-
-Implemented the required routes using Express.js and tested their HTTP status codes.
-Node.js
-Express.js
-JavaScript
-Git and GitHub
+Stop the running server with Ctrl + C before starting another server on the same port.
+The /anything path is an example of an unknown route. Other undefined paths should also return a 404 response.
+Displays the welcome message.
+[Home route response](Screenshots/home.png)
+Displays the student's name and section in JSON format.
+[About route response](Screenshots/about.png)
+Displays the current date and time.
+[Time route response](Screenshots/time.png)
+Displays the 404 Page Not Found response.
+[404 route response](Screenshots/not-found.png)
+- 200 OK: The request was successful.
+- 404 Not Found: The requested route does not exist.
+package.json stores project metadata, scripts, and dependency information. node_modules contains the installed packages required by the project.
+app.listen() starts the Express server and makes it listen for incoming requests on a specified port.
+request contains information about the incoming HTTP request. response is used to send data and status codes back to the client.
+Document the actual problems encountered while completing the lab and how they were solved.
+Example: If a port was already in use, stop the other server before starting the Express server on the same port.
+- The .gitignore file excludes node_modules/ and .env.
+- The node_modules/ directory must not be committed.
+- Screenshots are stored in the screenshots/ directory.
+- The project is submitted through the course GitHub repository. NEN EDHI CHANGE CHESTHUNA NA README FILE LO
