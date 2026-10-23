@@ -1,62 +1,45 @@
+Lab 1: Node.js and Express Server
+Name: Amara Sri Vidya
+Registration Number: 252U1R9007
+Section: Gen-AI 2A
+
+Live Link: amara-node-express-lab1.vercel.app
+GitHub LInk: https://github.com/srividya1393-dev/Amara_Node_Express_Lab1
 
 
-# Lab 1: Node.js and Express Server
+Project Description
+A simple web server built using Node.js and Express.js. It provides welcome, about, and current-time routes, along with a 404 handler for unknown routes.
 
-## Student Details
-- Name: Amara Sri Vidya
-- Registration Number: 252U1R9007
-- Section: GEN AI - 2A
-- GitHub Username: srividya1393-dev
-## Live Demo
+How to Run
+1. Install Dependencies
+npm install
+2. Start the Server
+node server.js
+3. Open in Browser
+http://localhost:3000
 
-**Live Website:** https://amara-node-express-lab1.vercel.app/
+Endpoints
+Method	Path	Description	Status Code
+GET	/	Welcome message	200
+GET	/about	Name and section in JSON	200
+GET	/time	Current date and time	200
+GET	/unknown	Not found response	404
+SCREENSHOTS:
+## Screenshots
 
-**GitHub Repository:** (https://github.com/srividya1393-dev/Amara_Node_Express_Lab1)
+### 1. Home Route
+![Home Route](Screenshots/home.png)
 
+### 2. About Route
+![About Route](Screenshots/about.png)
 
-## Objective
-To create and run a web server using Node.js and Express.
+### 3. Time Route
+![Time Route](Screenshots/time.png)
 
-## Technologies Used
+### 4. 404 Response
+![404 Response](Screenshots/not-found.png)
+Implemented the required routes using Express.js and tested their HTTP status codes.
 - Node.js
 - Express.js
 - JavaScript
-
-## Installation
-Install dependencies using:
-
-```bash
-npm install express
-```
-
-## Run the Server
-```bash
-node server.js
-```
-
-Open http://localhost:3000 in your browser.
-
-## Available Routes
-- `/` - Displays student details.
-- `/about` - Displays student details in JSON format.
-- `/time` - Displays the server time.
-- Other paths - Display a 404 Page Not Found message.
-
-## Screenshots
-Add screenshots of the Home, About, Time, and 404 pages here.
-## Screenshots
-
-### Home Page
-![Home Page](Screenshots/home.png)
-
-### About Page
-![About Page](Screenshots/about.png)
-
-### Time Page
-![Time Page](Screenshots/time.png)
-
-### 404 Page
-![404 Page](Screenshots/not-found.png)
-=======
-# Amara_Node_Express_Lab1
-Node.js and Express Lab 1 
+- Git and GitHub
