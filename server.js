@@ -4,34 +4,32 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-
-app.get("/", (req, res) => {
-    res.send(`
-    <h1>Welcome to Node.js and Express Lab 1</h1>
-    <p>Name: Amara Sri Vidya</p>
-    <p>Registration Number: 252U1R9007</p>
-    <p>Section: GEN AI - 2A</p>
-    <p>GitHub: srividya1393-dev</p>
-  `);
+// Route 1: Welcome page
+app.get("/", (request, response) => {
+    response.status(200).send("Welcome to my Node.js and Express Lab!");
 });
 
-app.get("/about", (req, res) => {
-    res.json({
+// Route 2: About information
+app.get("/about", (request, response) => {
+    response.status(200).json({
         name: "Amara Sri Vidya",
-        registrationNumber: "252U1R9007",
-        section: "GEN AI - 2A",
-        github: "srividya1393-dev"
+        section: "Gen-AI(2A)"
     });
 });
 
-app.get("/time", (req, res) => {
-    res.send(`Server time: ${new Date().toISOString()}`);
+// Route 3: Current date and time
+app.get("/time", (request, response) => {
+    response.status(200).json({
+        currentDateTime: new Date()
+    });
 });
 
-app.use((req, res) => {
-    res.status(404).send("404 - Page Not Found");
+// 404 handler for unknown paths
+app.use((request, response) => {
+    response.status(404).send("404 - Page Not Found");
 });
 
+// Start the server
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Express server running at http://localhost:${PORT}`);
 });
