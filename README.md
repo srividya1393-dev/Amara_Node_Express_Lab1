@@ -34,7 +34,7 @@ To set up a Node.js project, create a basic HTTP server using the built-in `http
 ## 6. Project Structure
 
 ```text
-Druvathi_Node_Express_Lab1/
+Amara_Node_Express_Lab1/
 ├── Screenshots/
 │   ├── home.png
 │   ├── about.png
